@@ -1,5 +1,3 @@
-build/
-
 # Created by https://www.toptal.com/developers/gitignore/api/node,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,macos
 
@@ -77,9 +75,7 @@ bower_components
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
-# Dependency directories
-node_modules/
-jspm_packages/
+
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -128,7 +124,6 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Gatsby files
 .cache/
@@ -179,3 +174,4 @@ dist
 # End of https://www.toptal.com/developers/gitignore/api/node,macos
 
 discord-html-transcripts-*.tgz
+node_modules
